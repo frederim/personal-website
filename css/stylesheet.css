@@ -1,20 +1,59 @@
 body {
-    font-family: sans-serif;
-    background: #aaa;
-}
+        background-image: url("images/backgrounds/black.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
 
-#full-page {
-    max-width: 45em;
-    margin: 4ex auto 4ex auto;
-    background: #eee;
-    padding: 4ex 7% 6ex 7%;
-    border-radius: 3px;
-    box-shadow: 5px 5px 12px black;
-}
+    h1 {
+        font-size: 3em;
+        text-shadow: 2px 2px 5px #aaa;
+    }
 
-@media (max-width: 512px) {
-}
+    h2 {
+        text-shadow: 2px 2px 3px #bbb;
+    }
 
+    hr {
+        border: 0;
+        border-bottom: 1px solid #333;
+        margin: 3ex 0;
+    }
+
+    .page-title {
+        color: #0cf;
+        text-shadow: 1px 1px 5px #029;
+        margin-bottom: 1ex;
+    }
+
+    #full-page {
+        opacity: 0.9;
+    }
+
+    #icon-block img {
+        width: 2em;
+        height: 2em;
+    }
+
+    .sig {
+        font-size: 0.9em;
+    }
+
+    @media (max-width: 512px) {
+        #icon-block img {
+            width: 2.2em;
+            height: 2.2em;
+        }
+
+        .page-title {
+            margin-top: 0;
+        }
+
+        body {
+            font-size: 1.5em;
+        }
+    }
 
 
 
