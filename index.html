@@ -7,8 +7,27 @@
 		<title>Matt's Web Page</title>
 		<link href="css/stylesheet.css" rel="stylesheet">
 	</head>
-	<body style="background-image: url("images/backgrounds/black.jpg");">
-		<div id="full-page">
+	<!--<script>
+		  ;(function() {
+        function on_dom_loaded() {
+            const images = [
+                "images\\backgrounds\\white.jpg",
+            ];
+
+            const i = Math.floor(Math.random() * images.length);
+
+            if (i > 0) {
+                const body = document.querySelector('body');
+                body.style.backgroundImage = `url("images/backgrounds/${images[i]}")`;
+            }
+        }
+
+        window.addEventListener("DOMContentLoaded", on_dom_loaded);
+    })();
+		
+	</script> -->
+	<body style="background-image: url('images/backgrounds/white.jpg');">
+		<div id="header">
 			<h1 class="page-title">Matt's Home Page</h1>
 			<div id="icon-block">
 				<a href="https://github.com/frederim">
@@ -24,6 +43,8 @@
 					<img src="images/icons/eff.svg" alt="Electronic Frontier Foundation">
 				</a>	
 			</div>
+		</div>
+		<div id="bulk">
 			<hr>
 			<h2>OSU CS Links</h2>
 			<ul>
@@ -44,11 +65,11 @@
 					<a href="resume/cv.pdf">Resume</a>
 				</li>
 			</ul>
+		</div>
+		<div id="footer">
 			<hr>
 			<i class="sig">Matt Fredericks, 20.5.22</i>
 		</div>
-
-		
 		<!-- <script src="js/home.js"></script> -->
 	</body>
 </html>
