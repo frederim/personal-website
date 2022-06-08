@@ -29,20 +29,24 @@
 body {
 	background-color: #7c70da;
 	color: #7c70da;
+	/*
 	font-family: Arial,Helvetica,sans-serif;
+	*/
 	font-size: 16px;
 	line-height: 16px;
 	padding: 30px 0;
 }
 
 #header {
+	text-align: center;
 	font-family: PetMe64Medium, monospace;
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 	font-variant: normal;
 }
 
 #mainscreen {
+	font-family: PetMe64Medium, monospace;
 	margin: 0 auto;
 	width: 640px;
 	border: 0;
