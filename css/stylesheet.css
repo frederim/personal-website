@@ -88,10 +88,9 @@ a:link {
 	color: #bfcd7a;
 }
 
-a:visited {
+ a:visited {
 	color: #64974f;
-	/*color: #bfcd7a;*/
-}
+} 
 
 a:hover {
 	color: #3e31a2;
@@ -115,9 +114,10 @@ a:active {
 .subheader {
 	margin-top: 16px;
 	font-family: PetMe64Medium, monospace;
-    font-weight: normal;
-    font-style: normal;
-	font-variant: normal;
+	border: 0;
+	background-color: #3e31a2;
+	text-align: left;
+
 }
 
 @media (max-device-width: 480px) {
