@@ -1,4 +1,4 @@
-function() {
+(function() {
         function on_dom_loaded() {
             const images = [
                 "backgrounds\\black.jpg",
@@ -14,4 +14,4 @@ function() {
         }
 
         window.addEventListener("DOMContentLoaded", on_dom_loaded);
-    }();
+    }())
