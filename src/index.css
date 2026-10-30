@@ -14,7 +14,7 @@
 /* Thanks for this awesome font * http://www.kreativekorp.com/software/fonts/c64.shtml */
 
 @font-face {   
-    src: url(fonts/PetMe.ttf);
+    src: url('/fonts/PetMe.ttf');
     font-family: PetMe64Medium;
  /*   font-weight: normal;
     font-style: normal;
@@ -33,7 +33,7 @@ body {
 	font-family: Arial,Helvetica,sans-serif;
 	*/
 	font-size: 16px;
-	line-height: 16px;
+	line-height: 20px; /* changed from 16px to 20px */
 	padding-left: 30px;
 }
 
@@ -48,7 +48,7 @@ body {
 #mainscreen {
 	font-family: PetMe64Medium, monospace;
 	margin: 0 auto;
-	width: 640px;
+	width: 1000px; /* changed from 640px to 1000px : fits 56 characters + indent*/
 	border: 0;
 	background-color: #3e31a2;
 	text-align: left;
@@ -56,7 +56,7 @@ body {
 }
 
 ul {
-	list-style-image: url('images/pipfull16.png');
+	list-style-image: url('/images/pipfull16.png');
 	/*
 	list-style-position: inside;
 	margin-left: 16px;
@@ -65,7 +65,7 @@ ul {
 }
 
 ul li:hover {
-	list-style-image: url('images/pipempty16.png');
+	list-style-image: url('/images/pipempty16.png');
 }
 
 .displaynone {
