@@ -9,7 +9,6 @@ export const sections = [
     links: [
       { label: 'Oregon State Electrical Engineering and Computer Science', href: 'https://eecs.oregonstate.edu/' },
       { label: 'OSU Software for Engineering Students', href: 'https://it.engineering.oregonstate.edu/download-software' },
-      { label: 'COE IT Connect', href: 'https://it.engineering.oregonstate.edu/connect' },
       { label: 'Courses by semester', href: 'https://classes.engr.oregonstate.edu/eecs/' },
       { label: 'OSU Academic Calendar', href: 'https://registrar.oregonstate.edu/osu-academic-calendar' },
       { label: 'Canvas Login', href: 'https://ecampus.oregonstate.edu/services/start/canvas-login.htm/' },
@@ -34,8 +33,9 @@ export const sections = [
       course(391, 'Social and Ethical Issues in Computer Science'),
       course(406, 'Projects'),
       course(352, 'Introduction to Usability Engineering'),
-      course(467, 'Capstone Project'),
       course(325, 'Analysis of Algorithms'),
+      course(467, 'Capstone Project'),
+      
     ],
   },
   {
